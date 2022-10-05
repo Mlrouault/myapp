@@ -1,1 +1,18 @@
-client index
+<div class="row">
+  <div class="offset-4 col-md-4">
+        <table>
+            <tr>
+                <th>Item Name</th>
+                <th>Amount</th>
+            </tr>
+            <% @clients.each do |client| %>
+                <% if current_user.id == client.user_id %>
+                    <tr>
+                        <td><%= client.name %></td>
+                        <td><%= client.node_count %></td>
+                    </tr>
+                <% end %>
+            <% end %>
+        </table>
+  </div>
+</div>

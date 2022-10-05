@@ -1,0 +1,17 @@
+<h1 class='text-center'>Shopping</h1>
+
+<div class="row">
+  <div class="col-md-4 offset-4">
+    <%= form_with(model: @client) do |f| %>
+
+      <%= f.label :name %>
+      <%= f.text_field :name, class: 'mb-1 form-control' %>
+
+      <%= f.label :Amount %>
+      <%= f.number_field :node_count, class: 'mb-1 form-control' %>
+
+      <%= f.submit "Add to Cart", class: "mt-2 btn btn-primary" %>
+    <% end %>
+
+  </div>
+</div>
