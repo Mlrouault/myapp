@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a very simple ruby on rails app that shows off what I've learned after ~10 days. 
 
-Things you may want to cover:
+The main features of this app are session based user authentication, a simple mysql storage system based per user, and error handling.
 
-* Ruby version
+My time on this project spent completing the Codecademy courses for Ruby and Ruby on Rails, setting up and configuring Ubuntu, mySql, mySql Workbench, a git repo, and VS Code on Windows 10, and designing/coding the app. 
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
